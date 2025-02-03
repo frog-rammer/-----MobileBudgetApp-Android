@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <!-- 타이틀 바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/blue_1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수입 지출 통계 그래프"
+            android:textSize="20sp"
+            android:fontFamily="@font/gb"
+            android:textColor="@color/white"
+            ></TextView>
+
+    </LinearLayout>
+
+    <!-- 막대 그래프 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/exGraphText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00월 수입 지출 그래프"
+                android:gravity="center"
+                android:layout_weight="9"
+                android:textColor="#000000"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/gm"
+                android:textSize="20dp"
+                >
+            </TextView>
+            <Spinner
+                android:id="@+id/monSpinner"
+                android:entries="@array/monArray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:spinnerMode="dropdown"
+                android:textColor="#000000"
+                android:fontFamily="@font/gm"
+                android:textSize="20dp"
+                >
+            </Spinner>
+            <TextView
+                android:id="@+id/spinText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/gm"
+                android:textSize="20dp"
+                android:text="월 ">
+            </TextView>
+
+
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_height="350dp"
+            android:layout_width="match_parent"
+            android:id="@+id/chart" />
+    </LinearLayout>
+
+    <!-- 수입 , 지출 통계 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <!-- 잔고-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="현재 잔고 "
+                android:textColor="#000000"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/gm"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0원"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/gm"
+                android:textSize="20dp"
+                android:id="@+id/totalnow"
+                >
+            </TextView>
+        </LinearLayout>
+        <!-- 저번 00 대비 지출 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="지난 달 대비 지출 "
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/gm"
+                android:textSize="20dp"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/compExText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0원"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/gm"
+                android:textSize="20dp"
+                >
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentView"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/dayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="1"
+        android:textSize="10sp"
+        android:fontFamily="@font/gb"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/incomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#0000FF"
+        android:fontFamily="@font/gb"
+        android:textSize="9sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        ></TextView>
+    <TextView
+        android:id="@+id/expenditureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FF0000"
+        android:textSize="9sp"
+        android:fontFamily="@font/gb"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        ></TextView>
+</LinearLayout>

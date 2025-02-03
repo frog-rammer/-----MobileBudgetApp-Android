@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/drawable-anydpi/plus.xml" value="0.1415" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/activity_calendar.xml" value="0.12" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/activity_calendar_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/activity_expense.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/activity_income.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/activity_statistics.xml" value="0.152" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/dialog_add.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/dialog_category.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/dialog_expense_add.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/dialog_income_add.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/dialog_income_category.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/82103/AndroidStudioProjects/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/mobile2022-efd5616e3c685a62c8c352d9cf0d3983fd37a9f8/app/src/main/res/layout/new_app_widget.xml" value="0.4" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MobileProject/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.2015" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MobileProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2015" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MobileProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2015" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MobileProject/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MobileProject/app/src/main/res/layout/new_app_widget.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

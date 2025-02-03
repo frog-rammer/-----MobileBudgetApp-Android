@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_1">
+
+
+    <LinearLayout
+        android:id="@+id/layoutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/daybtn_back"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left"
+            android:background="@color/blue_1"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YYYY년 MM월 DD일"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/gl"
+            />
+
+
+        <ImageButton
+            android:id="@+id/daybtn_next"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right"
+            android:background="@color/blue_1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="₩"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/gb"/>
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/gb"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/btnCategory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="카테고리 선택"
+            android:textColor="@color/blue_1"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/gm"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+    <ListView
+        android:background="@color/white"
+        android:id="@+id/listIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+</LinearLayout>

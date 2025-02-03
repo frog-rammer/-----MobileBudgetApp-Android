@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="widget_today_expense" type="id" />
+    <item name="widget_refresh_time" type="id" />
+    <item name="widget_monthly_expense" type="id" />
+    <item name="widget_monthly_income" type="id" />
+    <item name="widget_refresh_button" type="id" />
+</resources>
